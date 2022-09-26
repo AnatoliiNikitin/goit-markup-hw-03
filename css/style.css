@@ -167,6 +167,7 @@
         gap: 30px;
     }
     .peculiarities-iten {
+        width: 270px;
     }
     .peculiarities-title {
     font-weight: 700;
@@ -185,9 +186,7 @@
     }
     /*------------ Section-2---------------- */
     /*------------ Section-3---------------- */
-    .work {
-    }
-    .container-work {
+   .work {
         padding-bottom: 94px;
     }
     .work-title {
@@ -208,6 +207,8 @@
     /*------------ Section-3---------------- */
     /*------------ Section-4---------------- */
     .about {
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
     .about-list {
         display: flex;
@@ -215,13 +216,12 @@
         align-items: center;
     }
     .about-iten {
-        padding-bottom: 108px;
+        padding-bottom: 30px;
         background-color: #fff;
     }
     .container-about {
         background-color: #F5F4FA;
-        padding-top: 94px;
-        padding-bottom: 94px;
+        
     }
     .about-title {
         font-weight: 700;
@@ -254,7 +254,7 @@
     }
     /*------------ Section-4---------------- */
     /*------------ Footer---------------- */
-    .container-footer {
+    .footer {
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -314,18 +314,18 @@
     /*------------ Footer---------------- */
     /*------------ Портфоліо---------------- */
     .portfolio {
-    }
-    .container-portfolio {
         padding-top: 94px;
         padding-bottom: 94px;
+    }
+    .container-portfolio {
+        
     }
     .portfolio-title {
     }
     .portfolio-list {
         display: flex;
         gap: 8px;
-        width: 575px;
-        padding-bottom: 16px;
+      
         
     }
     .porfolio-lists {
@@ -371,13 +371,19 @@ padding: 6px 22px;
         width: calc((100% - 60px) / 3);
         border: 1px solid #EEEEEE;
     }
+    .project-description {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
     .project-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--top-color);
-    margin-top: 20px;
-    margin-left: 24px;
+   ;
     }
     .project-text {
     font-size: 16px;
@@ -386,6 +392,5 @@ padding: 6px 22px;
     color:var(--main-color);
     display: inline-block;
     margin-top: 4px;
-    margin-left: 24px;
-    margin-bottom: 20px;
+   
     }
