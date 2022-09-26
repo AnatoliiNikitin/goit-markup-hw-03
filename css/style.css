@@ -209,6 +209,7 @@
     .about {
         padding-top: 94px;
         padding-bottom: 94px;
+        background-color: #F5F4FA;
     }
     .about-list {
         display: flex;
@@ -220,7 +221,7 @@
         background-color: #fff;
     }
     .container-about {
-        background-color: #F5F4FA;
+      
         
     }
     .about-title {
